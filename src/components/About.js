@@ -170,7 +170,7 @@ export default function About() {
           <div>
             <h4 className="text-lg font-bold text-cyan-400 mb-2">Event Timing</h4>
             <p className="text-gray-300 text-sm leading-relaxed">
-              December 2nd, 2025<br />
+              January 19th, 2026<br />
               9:00 AM - 6:00 PM<br />
               Registration starts at 8:30 AM
             </p>

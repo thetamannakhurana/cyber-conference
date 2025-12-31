@@ -22,12 +22,12 @@ export default function Hero() {
           
           {/* Subtitle */}
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-300 mb-3 md:mb-4 font-medium tracking-wide px-4">
-            NFSU Conference 2025: Cybersecurity Education and Talent Development
+            NFSU Conference 2026: Cybersecurity Education and Talent Development
           </p>
           
           {/* Date */}
           <p className="text-sm sm:text-base md:text-lg text-gray-400 mb-6 md:mb-8 font-mono px-4">
-            <span className="text-cyan-400">{">"}</span> One Day Conference | December 2nd, 2025
+            <span className="text-cyan-400">{">"}</span> One Day Conference | January 19th, 2026
           </p>
           
           {/* Info Cards - Clickable */}
