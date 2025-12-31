@@ -132,6 +132,107 @@ export default function About() {
           </div>
         </div>
       </div>
+      {/* Enhanced Venue Section - Add at the end of About.js */}
+<div className="mt-12 md:mt-16">
+  <h3 className="text-2xl md:text-3xl font-bold text-white mb-6 md:mb-8 text-center gradient-text">
+    Conference Venue
+  </h3>
+  
+  <div className="grid md:grid-cols-2 gap-8 items-center">
+    {/* Venue Image */}
+    <div className="rounded-2xl overflow-hidden shadow-2xl border border-cyan-500/30 hover:shadow-cyan-500/20 transition-all duration-300">
+      <img 
+        src="/venue-image.jpg" 
+        alt="AICTE Auditorium" 
+        className="w-full h-64 md:h-80 object-cover hover:scale-105 transition-transform duration-500"
+      />
+    </div>
+    
+    {/* Venue Details Cards */}
+    <div className="space-y-4">
+      <div className="bg-slate-800/20 backdrop-blur-sm p-6 rounded-xl border border-cyan-500/20 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 transform hover:-translate-y-1">
+        <div className="flex items-start gap-4">
+          <span className="text-4xl">📍</span>
+          <div>
+            <h4 className="text-lg font-bold text-cyan-400 mb-2">Location</h4>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              AICTE Auditorium<br />
+              Vasant Kunj, New Delhi<br />
+              India
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div className="bg-slate-800/20 backdrop-blur-sm p-6 rounded-xl border border-cyan-500/20 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 transform hover:-translate-y-1">
+        <div className="flex items-start gap-4">
+          <span className="text-4xl">🕘</span>
+          <div>
+            <h4 className="text-lg font-bold text-cyan-400 mb-2">Event Timing</h4>
+            <p className="text-gray-300 text-sm leading-relaxed">
+              December 2nd, 2025<br />
+              9:00 AM - 6:00 PM<br />
+              Registration starts at 8:30 AM
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div className="bg-slate-800/20 backdrop-blur-sm p-6 rounded-xl border border-cyan-500/20 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 transform hover:-translate-y-1">
+        <div className="flex items-start gap-4">
+          <span className="text-4xl">🚇</span>
+          <div>
+            <h4 className="text-lg font-bold text-cyan-400 mb-2">How to Reach</h4>
+            <p className="text-gray-300 text-sm leading-relaxed mb-3">
+              Metro: Vasant Vihar Station<br />
+              Parking: Available on premises
+            </p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=AICTE+Auditorium+Vasant+Kunj+New+Delhi"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block bg-cyan-500 hover:bg-cyan-400 text-white px-4 py-2 rounded-lg text-sm font-semibold transition-all duration-300 transform hover:scale-105"
+            >
+              View on Map →
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  {/* Partner Organization Links with Download Brochure */}
+  <div className="mt-8 text-center">
+    <h4 className="text-lg font-bold text-white mb-4">In Collaboration With</h4>
+    <div className="flex flex-wrap justify-center gap-4">
+      <a 
+        href="https://nfsu.ac.in/delhi" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="glass-effect px-6 py-3 rounded-lg border border-cyan-500/30 hover:border-cyan-400 transition-all duration-300 text-cyan-400 hover:text-white font-semibold transform hover:scale-105"
+      >
+        NFSU Delhi
+      </a>
+      <a 
+        href="https://cybercrime.gov.in" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="glass-effect px-6 py-3 rounded-lg border border-cyan-500/30 hover:border-cyan-400 transition-all duration-300 text-cyan-400 hover:text-white font-semibold transform hover:scale-105"
+      >
+        I4C
+      </a>
+      <a 
+        href="https://www.aicte-india.org" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="glass-effect px-6 py-3 rounded-lg border border-cyan-500/30 hover:border-cyan-400 transition-all duration-300 text-cyan-400 hover:text-white font-semibold transform hover:scale-105"
+      >
+        AICTE
+      </a>
+    </div>
+  </div>
+</div>
+
     </section>
   )
 }

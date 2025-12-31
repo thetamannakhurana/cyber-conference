@@ -10,7 +10,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="text-white font-bold text-xl tracking-tight">
-              <span className="gradient-text font-mono">{"<NFSU/>"}</span>
+              <span className="gradient-text font-mono">{"<CYBER/>"}</span>
               <span className="ml-2 text-sm text-gray-400">Conference 2025</span>
             </div>
           </div>

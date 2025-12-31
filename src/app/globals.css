@@ -285,3 +285,15 @@ body {
 section {
   overflow-x: hidden;
 }
+/* Justify all paragraphs across the site */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Exception: Keep centered text centered */
+.text-center p,
+p.text-center {
+  text-align: center;
+}
+
