@@ -27,7 +27,7 @@ export default function Hero() {
           
           {/* Date */}
           <p className="text-sm sm:text-base md:text-lg text-gray-400 mb-6 md:mb-8 font-mono px-4">
-            <span className="text-cyan-400">{">"}</span> One Day Conference | January 19th, 2026
+            <span className="text-cyan-400">{">"}</span> One Day Conference | January 20th, 2026
           </p>
           
           {/* Info Cards - Clickable */}
