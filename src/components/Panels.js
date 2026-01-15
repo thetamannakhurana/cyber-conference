@@ -105,31 +105,6 @@ export default function Panels() {
                     </div>
                   ))}
                 </div>
-
-                {/* Preview when collapsed - WITH RESPONSE ROUND BUTTON */}
-                {activePanel !== panelIdx && (
-                  <div className="mt-3 md:mt-4">
-                    <div className="flex gap-2 flex-wrap items-center mb-3">
-                      {panel.members.map((member, idx) => (
-                        <span key={idx} className="text-xl md:text-2xl opacity-60 hover:opacity-100 transition-opacity">
-                          {member.icon}
-                        </span>
-                      ))}
-                      <span className="text-cyan-400 text-xs md:text-sm self-center ml-2">Tap to expand</span>
-                    </div>
-                    
-                    {/* Response Round Button - Shows in collapsed view */}
-                    <a
-                      href={panel.formLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                      className="inline-block bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg font-semibold text-xs md:text-sm hover:from-cyan-500 hover:to-blue-500 transform hover:scale-105 transition duration-300 shadow-lg"
-                    >
-                      Response Round
-                    </a>
-                  </div>
-                )}
               </div>
             </div>
           ))}
