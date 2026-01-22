@@ -32,51 +32,7 @@ export default function Home() {
                 </a>
               </div>
             </div>
-             {/* Contact Cards - Conference Coordinators */}
-            <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto mb-8">
-              {/* Dr. Aditya Pratap Singh */}
-              <div className="bg-slate-800/20 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20">
-                <a 
-                  href="https://www.linkedin.com/in/aditya-partap-singh-3839bb152/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-xl font-bold text-cyan-400 hover:text-white transition-colors block mb-2"
-                >
-                  Dr. Aditya Pratap Singh
-                </a>
-                <p className="text-sm text-gray-400 mb-3">Conference Coordinator</p>
-                <div className="space-y-2 text-sm">
-                  <a href="mailto:aditya.singh@nfsu.ac.in" className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition-colors">
-                    <span>📧</span> aditya.singh@nfsu.ac.in
-                  </a>
-                  <a href="tel:+917988565046" className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition-colors">
-                    <span>📞</span> +91 7988565046
-                  </a>
-                </div>
-              </div>
-
-              {/* Dr. Pankaj Sharma */}
-              <div className="bg-slate-800/20 backdrop-blur-sm border border-cyan-500/20 rounded-xl p-6 hover:border-cyan-400 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20">
-                <a 
-                  href="https://www.linkedin.com/in/dr-pankaj-sharma-96ba2265/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-xl font-bold text-cyan-400 hover:text-white transition-colors block mb-2"
-                >
-                  Dr. Pankaj Sharma
-                </a>
-                <p className="text-sm text-gray-400 mb-3">Conference Coordinator</p>
-                <div className="space-y-2 text-sm">
-                  <a href="mailto:pankaj.sharma@nfsu.ac.in" className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition-colors">
-                    <span>📧</span> pankaj.sharma@nfsu.ac.in
-                  </a>
-                  <a href="tel:+919068381379" className="flex items-center gap-2 text-gray-300 hover:text-cyan-400 transition-colors">
-                    <span>📞</span> +91 9068381379
-                  </a>
-                </div>
-              </div>
-            </div>
-
+             
             <div className="text-center mb-2">
               <p className="text-white text-lg">© 2025 National Forensic Sciences University</p>
             </div>
