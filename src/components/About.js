@@ -122,12 +122,7 @@ export default function About() {
               >
                 cyberconference2025@gmail.com
               </a>
-              <a 
-                href="tel:+917988565046" 
-                className="text-sm md:text-base text-gray-300 block hover:text-cyan-400 transition-colors"
-              >
-                +91 7988565046
-              </a>
+              
             </div>
           </div>
         </div>
